@@ -1,0 +1,70 @@
+/* Reset CSS */
+*, *::before, *::after{
+    box-sizing: border-box;
+}
+
+*{
+    padding: 0;
+    margin: 0;
+}
+
+/* General CSS */
+
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;1,100;1,200&display=swap');
+
+:root{
+    --pale-white: #EEEEEE;
+    --brown: #7A3E3E;
+    --dark-brown: #482121;
+    --bright-green: #47A992;
+    --content-padding: 2rem;
+}
+
+body{
+    display: grid;
+    justify-content: center;
+    font-family: 'Poppins', sans-serif;
+    align-items: center;
+    margin-top: 4rem;
+    gap: 1rem;
+    background-color: var(--bright-green);
+    color: var(--pale-white);
+}
+
+main{
+    background-color: #EEEEEE;
+    display: grid;
+    gap: 3rem;
+    max-width: 600px;
+    padding: var(--content-padding);
+    border-radius: 0.5rem;
+}
+
+h1{
+    color: var(--dark-brown);
+}
+
+h2{
+    color: var(--brown);
+}
+
+
+#computer-choice, #user-choice, #result{
+    color: var(--bright-green);
+    font-size: 1.5rem;
+}
+
+
+button{
+    padding: 0.5rem;
+    border: none;
+    background: var(--bright-green);
+    color: var(--pale-white);
+    border-radius: 0.5rem;
+    cursor: pointer;
+    transition: 0.5s
+}
+
+button:hover{
+    box-shadow: 0px 4px 5px black;
+}
