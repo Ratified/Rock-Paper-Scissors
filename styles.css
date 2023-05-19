@@ -48,8 +48,14 @@ h2{
     color: var(--brown);
 }
 
+#user-choice{
+    background-color: var(--bright-green);
+    color: var(--pale-white);
+    padding: 0.5rem;
+    border-radius: 0.5rem;
+}
 
-#computer-choice, #user-choice, #result{
+#computer-choice, #result{
     color: var(--bright-green);
     font-size: 1.5rem;
 }
