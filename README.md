@@ -8,6 +8,9 @@ A simple Rock Paper Scissors game implemented using HTML, CSS, and JavaScript.
 2. The computer will randomly choose an option.
 3. The winner will be determined based on the rules of the game.
 
+## Demo
+Find the code deployed live [here](https://ratified.github.io/Rock-Paper-Scissors/)
+
 ## Project Structure
 
 - `index.html`: The main HTML file.
